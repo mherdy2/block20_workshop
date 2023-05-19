@@ -14,7 +14,7 @@ const users = [
 
 // Create h1 element
 const heading = document.createElement("h1");
-heading.textContent = "FREELANCERS";
+heading.innerHTML = "FREELANCERS";
 
 // Append h1 element to the root
 root.appendChild(heading);
